@@ -6,11 +6,18 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-
-int num=8;
-System.out.println(num);
-System.out.println(num>>1);
-
+        enum Days{
+    Monday,
+    Tuesday,
+    Wednesday
+}
+Days d= Days.Tuesday;
+System.out.println("Today is "+d);
+Person Andrei=new Person();
+Andrei.makeSound();
+Array arr=new Array();
+arr.Array();
+arr.ArrayString();
     }
     }
 
